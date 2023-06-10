@@ -1,5 +1,7 @@
 {
     "NewsAPI" : {
-        "api_key" : "3633d14fcb4b438f86807dcbec6d809c"
+        "api_key" : "3633d14fcb4b438f86807dcbec6d809c",
+        "from_date": "2023-06-09",
+        "to_date": "2023-06-10"
     }
 }
