@@ -1,0 +1,7 @@
+{
+    "NewsAPI" : {
+        "query_string" : ["Dairy Milk", "Vodka AND Russia"],
+        "from_date_time" : "",
+        "to_date_time" : ""
+    }
+}

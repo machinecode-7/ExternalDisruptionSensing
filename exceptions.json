@@ -1,0 +1,45 @@
+{
+    "Exception-DATA_MODEL001" : {
+        "display_text" : "The specified path $$path$$ is not supported for saving mode $$save_mode$$"
+    },
+    "Exception-DATA_MODEL002" : {
+        "display_text" : "The specified saving mode $$save_mode$$ is not supported"
+    },
+    "Exception-API_QUERY001" : {
+        "display_text" : "The mandatory parameter $$parameter$$ does not exists in the API config of $$API_NAME$$"
+    },
+    "Exception-API_QUERY002" : {
+        "display_text" : "The mandatory parameter $$parameter$$ exists as empty string in the API config of $$API_NAME$$"
+    },
+    "Exception-API_QUERY003" : {
+        "display_text" : "The specified mode $$mode$$ is not currently supported for $$API_NAME$$"
+    },
+    "Exception-API_QUERY004" : {
+        "display_text" : "Received $$status_code$$ in the response of $$API_NAME$$ call"
+    },
+    "Exception-API_QUERY005" : {
+        "display_text" : "$$parameter$$ is assigned more than permissible length of $$API_NAME$$"
+    },
+    "Exception-API_QUERY006" : {
+        "display_text" : "Alert $$alert$$ is undefined in the config of $$API_NAME$$"
+    },
+    "Exception-SCRIPTS001" : {
+        "display_text" : "$$environment_name$$ environment does not exists! Please try again with correct environment identifier."
+    },
+    "Exception-SCRIPTS002" : {
+        "display_text" : "Exception occured while syncing the $$file$$ from $$source$$ to $$target$$ location."
+    },
+    "Exception-SCRIPTS003" : {
+        "display_text" : "Exception occured while syncing the $$folder$$ from $$source$$ to $$target$$ location."
+    },
+    "Exception-Logger001" : {
+        "display_text" : "Table $$table_name$$ creation failed."
+    },
+    "Exception-Logger003" : {
+        "display_text" : "Table $$table_name$$ failed to fetch $$field$$"
+    },
+    "Exception-Logger002" : {
+        "display_text" : "Table $$table_name$$ Insertion of rows failed."
+    }
+
+}
