@@ -1,17 +1,5 @@
 {
-    "openai" : {
-        "organization" : "",
-        "api_key" : "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"
-    },
     "NewsAPI" : {
-        "api_key" : "4db34564271b493dbd748fe15c751cd2"
-    },
-    "db_server_credentials" : {
-        "ENDPOINT" : "",
-        "PORT" : "5432",
-        "USER" : "",
-        "REGION" : "",
-        "DBNAME" : "",
-        "PASSWORD" : ""
+        "api_key" : "3633d14fcb4b438f86807dcbec6d809c"
     }
 }
