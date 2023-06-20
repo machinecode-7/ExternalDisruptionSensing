@@ -5,7 +5,6 @@ from generate_query_list import generate_query_list
 from generate_query_string import generate_QueryString
 from Bard import Chatbot
 
-
 def create_data(from_date, to_date, API_KEY):
         token = "WwhAR33abISms9MLc0uWbYIVKuhsPs0Ze3v7mcKGwD7yJKL4CMNwwyRdvb9_Iiyq1njfEA."
         bot = Chatbot(token)
@@ -48,8 +47,7 @@ def create_data(from_date, to_date, API_KEY):
                         data["summary"].append(summary)
                 except Exception as e:
                         print(e)
-
-        
+                        
         pd.DataFrame(data).to_csv('report.csv')
         return data
 
