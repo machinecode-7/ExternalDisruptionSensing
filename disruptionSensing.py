@@ -3,7 +3,6 @@ import copy
 import json
 import psycopg2
 import newsApi as API
-
 import ddl
 
 environment = "development"
